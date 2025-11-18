@@ -2,7 +2,7 @@ package com.agenticaiworkshop.server.entities;
 
 import jakarta.persistence.*;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "TRANSACTIONS", schema = "public")
@@ -16,7 +16,7 @@ public class Transactions {
     private String account;
 
     @Column(name = "date", nullable = false)
-    private Date date;
+    private LocalDate date;
 
     @Column(name = "amount", nullable = false)
     private Double amount;
@@ -36,7 +36,7 @@ public class Transactions {
 
     public Transactions(int id,
                         String account,
-                        Date date,
+                        LocalDate date,
                         Double amount,
                         String description,
                         String location,
@@ -59,11 +59,11 @@ public class Transactions {
         this.account = account;
     }
 
-    public Date getDate() {
+    public LocalDate getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(LocalDate date) {
         this.date = date;
     }
 
