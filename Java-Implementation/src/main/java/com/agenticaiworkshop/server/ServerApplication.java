@@ -1,4 +1,4 @@
-package com.AgenticAiWorkshop.server;
+package com.agenticaiworkshop.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
