@@ -38,10 +38,18 @@ public class Transactions {
     public Transactions(int id,
                         String account,
                         LocalDate date,
-                        Double amount,
+                        BigDecimal amount,
                         String description,
                         String location,
                         String category) {
+        this.id = id;
+        this.account = account;
+        this.date = date;
+        this.amount = amount;
+        this.description = description;
+        this.location = location;
+        this.category = category;
+
     }
 
     public int getId() {
