@@ -1,4 +1,4 @@
-package com.agenicaiworkshop.server.entities;
+package com.agenticaiworkshop.server.entities;
 
 import jakarta.persistence.*;
 

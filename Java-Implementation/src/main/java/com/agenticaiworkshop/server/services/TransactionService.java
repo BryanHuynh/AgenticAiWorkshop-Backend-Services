@@ -1,6 +1,6 @@
-package com.agenicaiworkshop.server.services;
+package com.agenticaiworkshop.server.services;
 
-import com.agenicaiworkshop.server.repositories.TransactionsRepository;
+import com.agenticaiworkshop.server.repositories.TransactionsRepository;
 import org.springframework.stereotype.Service;
 
 @Service
